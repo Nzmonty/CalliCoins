@@ -1,16 +1,32 @@
 //import { useState } from "react";
 import { Paragraph } from "../components/Paragraph";
+import { useRouteError } from "react-router-dom"
 
-const ErrorPage = () => {
-    return (
-        <>
-            <div>
-                <h1>404 Error</h1>
-                <p>We cannot find the content you are looking for</p>
-            </div>
-            <Paragraph color={`red`}> Sorry!</Paragraph>
-        </>
-    );
-};
+export default function ErrorPage() {
+    const error = useRouteError();
+    console.error(error);
 
-export default ErrorPage;
+return (
+    <div id="error-page">
+    <h1>Oops!</h1>
+    <p>Sorry, an unexpected error has occurred.</p>
+    <p>
+        <i>{error.statusText || error.message}</i>
+    </p>
+    </div>
+);
+}
+
+// const ErrorPage = () => {
+//     return (
+//         <>
+//             <div>
+//                 <h1>404 Error</h1>
+//                 <p>We cannot find the content you are looking for</p>
+//             </div>
+//             <Paragraph color={`red`}> Sorry!</Paragraph>
+//         </>
+//     );
+// };
+
+// export default ErrorPage;
