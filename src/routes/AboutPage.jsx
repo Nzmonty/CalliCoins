@@ -1,2 +1,16 @@
-import { useState } from "react";
+//import { useState } from "react";
 import { Paragraph } from "../components/Paragraph";
+
+const AboutPage = () => {
+    return (
+        <>
+            <div>
+                <h1>About Page</h1>
+                <p>This is the about page content</p>
+            </div>
+            <Paragraph color={`red`}> Some text here</Paragraph>
+        </>
+    );
+};
+
+export default AboutPage;
