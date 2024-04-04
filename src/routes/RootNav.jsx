@@ -1,10 +1,11 @@
 import { Outlet, Link } from "react-router-dom"
+import '../styles/NavStyle.css'
 
 export default function RootNav() {
     return (
     <>
-    <div id="sidebar">
-        <h1>React Router Nav Bar</h1>
+    <div class= "topnav">
+        <h2>Nate's GameHub</h2>
         <nav>
         <ul>
         <li>
