@@ -1,5 +1,4 @@
 //import { useState } from "react";
-import { Paragraph } from "../components/Paragraph";
 import { useRouteError } from "react-router-dom"
 
 export default function ErrorPage() {

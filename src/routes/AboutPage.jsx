@@ -1,5 +1,5 @@
 //import { useState } from "react";
-import { Paragraph } from "../components/Paragraph";
+//import { Paragraph } from "./components/Paragraph";
 
 const AboutPage = () => {
     return (
@@ -8,7 +8,6 @@ const AboutPage = () => {
                 <h1>About Page</h1>
                 <p>This is the about page content</p>
             </div>
-            <Paragraph color={`red`}> Some text here</Paragraph>
         </>
     );
 };
