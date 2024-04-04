@@ -33,7 +33,7 @@ const GameScreen = ({name}) => {
   }
 
   return (
-    <div id="game-screen">
+    <div id="game-screen" className="pushDown">
       <div id="score-tally">
         <p id="score"> {name}: {userScore} v CPU: {cpuScore}</p>
         <span>{selection}</span>

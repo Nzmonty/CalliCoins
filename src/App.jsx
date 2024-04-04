@@ -11,13 +11,15 @@ function App() {
     <>
       <div>
           {/* <img src={reactLogo} className="logo react" alt="React logo" /> */}
-          <h1>Rock Paper Scissors</h1> 
+          <h1 className="rpsTitle">Rock Paper Scissors</h1> 
       </div>
+      <div className="pushRight">
       {
         gameStarted
         ? <Game name={name}/>
         : <Welcome name={name} onNameChange={setName} onGameStart={() => setGameStarted(true)}/>
       }
+      </div>
     </>
   )
 }

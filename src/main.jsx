@@ -11,6 +11,7 @@ import GamePage from "./routes/GamePage";
 import AboutPage from "./routes/AboutPage";
 import ErrorPage from "./routes/ErrorPage";
 import RootNav from "./routes/RootNav";
+import App from "./App.jsx";   
 
 const router = createBrowserRouter ([
     {
@@ -30,6 +31,10 @@ const router = createBrowserRouter ([
         {
             path: `/about`,
             element: <AboutPage />
+        },
+        {
+            path: `/game/rps`,
+            element: <App />
         },
     ],// {basename: import.meta.env.BASE_URL}
     },
