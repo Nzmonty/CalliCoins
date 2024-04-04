@@ -1,4 +1,21 @@
 /* Add a black background color to the top navigation */
+
+.pagebg {
+  background-color: #ededed;
+}
+
+h1 {
+  color: #131313;
+  top:0;
+  text-align: left;
+  padding: 0px 50px
+}
+
+p {
+  text-align: left;
+  padding: 0px 50px;
+}
+
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -39,8 +56,4 @@
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
-}
-
-.pagebg {
-    background-color: #ededed;
 }

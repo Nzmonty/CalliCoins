@@ -1,5 +1,6 @@
 //import { useState } from "react";
 //import { Paragraph } from "./components/Paragraph";
+import '../styles/PageStyle.css'
 
 const AboutPage = () => {
     return (

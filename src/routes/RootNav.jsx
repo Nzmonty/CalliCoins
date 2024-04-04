@@ -4,7 +4,7 @@ import '../styles/NavStyle.css'
 export default function RootNav() {
     return (
     <>
-    <div class= "topnav">
+    <div className= "topnav">
         <h2>Nate's GameHub</h2>
         <nav>
         <ul>
