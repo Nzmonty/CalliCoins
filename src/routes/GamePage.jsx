@@ -15,6 +15,9 @@ const GamePage = () => {
                     <li>
                     <Link to="rps">ROCK PAPER SCISSORS</Link>
                     </li>
+                    <li>
+                    <Link to="ttt">TIC TAC TOE</Link>
+                    </li>
                 </ul>
             </div>
             <div>
