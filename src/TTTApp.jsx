@@ -3,9 +3,11 @@ import './TTTstyle.css'
 
 function Square({ value, onSquareClick }) {
 return (
+    <>
     <button className="square" onClick={onSquareClick}>
     {value}
     </button>
+    </>
 );
 }
 
@@ -33,6 +35,7 @@ function Board({ xIsNext, squares, onPlay }) {
 
     return (
     <>
+    <h1> TIC TAC TOE </h1>
     <div className="status">{status}</div>
     <div className="board-row">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
