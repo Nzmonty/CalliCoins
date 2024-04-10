@@ -40,9 +40,10 @@ const router = createBrowserRouter ([
         {
             path: `/game/ttt`,
             element: <TTTApp />
-        }
-    ], basename: import.meta.env.BASE_URL}
-    ])
+        }],
+    }
+    ], {basename: import.meta.env.BASE_URL});
+    
     
 
 ReactDOM.createRoot(document.getElementById("root")).render(
