@@ -21,12 +21,12 @@ const router = createBrowserRouter ([
         errorElement: <ErrorPage />,
         children: [
         {
-            path: `/gamehub-Nzmonty/home`,
+            path: `/home`,
             index: true,
             element: <HomePage />
         },
         {
-            path: `/gamehub-Nzmonty/game`,
+            path: `/game`,
             element: <GamePage />
         },
         {
