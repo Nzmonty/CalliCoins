@@ -21,7 +21,7 @@ const router = createBrowserRouter ([
         errorElement: <ErrorPage />,
         children: [
         {
-            path: `/home`,
+            path: `/gamehub-Nzmonty/home`,
             index: true,
             element: <HomePage />
         },
