@@ -49,6 +49,7 @@ export default function Game() {
     let status;
     if (winner) {
         status = 'Winner: ' + winner;
+        console.log("Winner is decided");
     } else {
         status = 'Next player: ' + (xIsNext ? 'X' : 'O');
     }
@@ -89,9 +90,11 @@ export default function Game() {
         </li>
         );
     });
-    
+
+
     function jumpTo(nextMove) {
         setCurrentMove(nextMove);
+        console.log("Jump to next move");
     }
 
     // return (
