@@ -1,5 +1,6 @@
 {
-  "name": "gamehub-assignment",
+  "homepage": "https://nzmonty.github.io/CalliCoins/",
+  "name": "CalliCoins",
   "private": true,
   "version": "0.0.0",
   "type": "module",
